@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFA500;" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SignUpController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="316.0" prefWidth="700.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <TextField fx:id="signUpLogin" layoutX="14.0" layoutY="66.0" prefHeight="40.0" prefWidth="245.0" promptText="Логин" style="-fx-border-color: #696969;">
+                    <font>
+                        <Font name="Lobster" size="17.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="signUpPassword" layoutX="441.0" layoutY="66.0" prefHeight="40.0" prefWidth="245.0" promptText="Пароль" style="-fx-border-color: #696969;">
+                    <font>
+                        <Font name="Lobster" size="17.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="signUpEnter" layoutX="255.0" layoutY="250.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="190.0" style="-fx-background-color: #FFA500;" text="Зарегистрироваться" textFill="WHITE">
+                    <font>
+                        <Font name="Lobster" size="16.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="signUpName" layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="245.0" promptText="Имя" style="-fx-border-color: #696969;">
+                    <font>
+                        <Font name="Lobster" size="17.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="signUpLastName" layoutX="441.0" layoutY="14.0" prefHeight="40.0" prefWidth="245.0" promptText="Фамилия" style="-fx-border-color: #696969;">
+                    <font>
+                        <Font name="Lobster" size="17.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="signUpLocation" layoutX="228.0" layoutY="191.0" prefHeight="40.0" prefWidth="245.0" promptText="Местонахождение" style="-fx-border-color: #696969;">
+                    <font>
+                        <Font name="Lobster" size="17.0" />
+                    </font>
+                </TextField>
+                <CheckBox fx:id="signUpMale" layoutX="223.0" layoutY="141.0" mnemonicParsing="false" text="Мужской" textFill="#6f6969">
+                    <font>
+                        <Font name="Lobster" size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="signUpFemale" layoutX="391.0" layoutY="141.0" mnemonicParsing="false" text="Женский" textFill="#6f6969">
+                    <font>
+                        <Font name="Lobster" size="14.0" />
+                    </font>
+                </CheckBox>
+            </children></AnchorPane>
+        <Label layoutX="259.0" layoutY="7.0" text="First App" textFill="WHITE">
+            <font>
+                <Font name="Lobster" size="51.0" />
+            </font>
+        </Label>
+      <Button fx:id="backButton" layoutX="601.0" layoutY="14.0" mnemonicParsing="false" text="Назад" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFA500;" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.SecondController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="316.0" prefWidth="700.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <Label layoutX="234.0" layoutY="14.0" prefHeight="130.0" prefWidth="232.0" text="Привет, Мир!!!" textFill="#aba0a0">
+                    <font>
+                        <Font name="Lobster" size="31.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="imageComputer" fitHeight="150.0" fitWidth="200.0" layoutX="275.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/Computer.png" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="259.0" layoutY="7.0" text="First App" textFill="WHITE">
+            <font>
+                <Font name="Lobster" size="51.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
